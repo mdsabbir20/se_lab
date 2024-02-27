@@ -1,0 +1,31 @@
+.container {
+    width: 900px;
+    height: auto; 
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10% auto 0; 
+    padding: 20px; 
+}
+
+.product {
+    margin-left: 7%;
+    width: 85%;
+    display: flex; 
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 10px; 
+background-color: rgb(172, 239, 239);}
+
+.itemleft {
+    flex: 0 0 20%; 
+    margin-right: 20px; 
+}
+
+.itemleft img {
+    width: 50%; 
+    height: 30%;
+}
+
+.itemRight {
+    flex: 1; 
+}
